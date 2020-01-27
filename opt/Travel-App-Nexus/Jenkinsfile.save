@@ -1,0 +1,51 @@
+pipeline {
+	agent any
+
+	stages {
+	        stage('---clean---') {
+	            steps {
+	                sh "docker stop mysql"
+			sh "docker stop TravelAppDeploy"
+			sh "docker system prune -a"
+	            }
+		}
+		stage('--MVN--') {
+                    steps {
+                        sh "mvn clean"
+			sh "mvn test"
+			sh "mvn package"
+                    }
+                }
+
+#		stage('--Run Backend Script--') {
+#                    steps {
+#                        sh "./TADocker.sh"
+#                    }
+#                }
+
+		stage('--Docker Network--') {
+                    steps {
+                        sh "docker network create travelapp-mysql"
+                    }
+                }
+		stage('--Create & Connect SQl Container (Build Table)--') {
+                    steps {
+                        sh "docker run -p 3306:3306 --name mysql -e MTSQL_ROOT_PASSWORD=password -d mysql:latest"
+                    
+}
+                }
+		stage('--Build --') {
+                    steps {
+                        sh "./TADocker.sh"
+                    }
+                }
+		stage('--RUN--') {
+                    steps {
+                        sh "./TADocker.sh"
+                    }
+                }
+
+
+    }
+
+}

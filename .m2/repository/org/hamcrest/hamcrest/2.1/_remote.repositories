@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jan 24 11:01:04 UTC 2020
+hamcrest-2.1.pom>central=
+hamcrest-2.1.pom>nexus=
+hamcrest-2.1.jar>central=
+hamcrest-2.1.jar>nexus=

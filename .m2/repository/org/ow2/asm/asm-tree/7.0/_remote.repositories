@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jan 24 11:01:24 UTC 2020
+asm-tree-7.0.pom>central=
+asm-tree-7.0.jar>central=
+asm-tree-7.0.pom>nexus=
+asm-tree-7.0.jar>nexus=

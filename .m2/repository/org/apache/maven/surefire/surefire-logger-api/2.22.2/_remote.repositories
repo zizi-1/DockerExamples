@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jan 24 11:01:14 UTC 2020
+surefire-logger-api-2.22.2.pom>central=
+surefire-logger-api-2.22.2.jar>nexus=
+surefire-logger-api-2.22.2.pom>nexus=
+surefire-logger-api-2.22.2.jar>central=

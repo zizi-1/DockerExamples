@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+git clone --branch DockerTest https://github.com/zzahid93/TravelApp.git
+
+
+docker run --network travelapp-mysql -d -p 1900:8082 travel-app
+
+
+docker build -t travel-app .
+
+docker run --network travelapp-mysql -d -p 9090:8082 --name testdb1 travel-app
+
+
+

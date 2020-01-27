@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jan 24 11:00:52 UTC 2020
+http\://localhost\:8081/repository/maven-proxy-test/.error=
+efa968f812bfd5bf7be52372efbcfb3dd6972ea9@default-nexus-http\://localhost\:8081/repository/MavenTA/.lastUpdated=1579863485596
+http\://localhost\:8081/repository/MavenTA/.lastUpdated=1579863652196
+http\://localhost\:8081/repository/maven-proxy-test/.lastUpdated=1579862322638

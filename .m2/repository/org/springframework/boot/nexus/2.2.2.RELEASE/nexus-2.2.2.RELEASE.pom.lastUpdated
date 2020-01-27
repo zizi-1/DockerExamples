@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jan 24 10:44:20 UTC 2020
+http\://localhost\:8081/repository/maven-proxy-test/.error=
+http\://localhost\:8081/repository/maven-proxy-test/.lastUpdated=1579862660121

@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jan 24 11:01:24 UTC 2020
+spring-boot-loader-tools-2.2.2.RELEASE.jar>central=
+spring-boot-loader-tools-2.2.2.RELEASE.pom>central=
+spring-boot-loader-tools-2.2.2.RELEASE.pom>nexus=
+spring-boot-loader-tools-2.2.2.RELEASE.jar>nexus=

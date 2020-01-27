@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jan 24 11:02:56 UTC 2020
+plexus-utils-3.0.15.jar>central=
+plexus-utils-3.0.15.pom>nexus=
+plexus-utils-3.0.15.jar>nexus=
+plexus-utils-3.0.15.pom>central=

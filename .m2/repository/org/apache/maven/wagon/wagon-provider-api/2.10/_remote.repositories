@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Jan 24 11:01:19 UTC 2020
+wagon-provider-api-2.10.jar>central=
+wagon-provider-api-2.10.pom>nexus=
+wagon-provider-api-2.10.jar>nexus=
+wagon-provider-api-2.10.pom>central=
